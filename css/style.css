@@ -1,0 +1,114 @@
+/*GENERAL STYLES */
+
+/* add your font import line here */
+
+* {
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial bold', Arial, sans-serif;
+    font-size: 40px;
+}
+
+/* add your font-family property to the body rule here. You will also add a background color and text color here. */
+body {
+    margin: 0 auto;
+    background-color: #6fbcff;
+    max-width: 1000px;
+}
+
+/* TAG SELECTOR STYLES */
+/* Style your header and footer together here. You can add a background color, another font-family, another text color, a border, etc */
+header, 
+footer {
+    width: 100%;
+    margin: 15px 0px 15px 0px;
+    margin: auto; 
+    text-align: center;
+    padding: 20px;
+    background-color: aquamarine;
+    border: 20px black;
+}
+
+/* Here you will style your <main> box holding all of your collection items. You can give it a background color. But most importantly, make the parent main selector a flebox, make it a row, make it wrap, and justify the content to space between*/
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+} 
+
+/* This rule provides 10px of padding around all sides of each image on your page */
+img {
+    padding: 10px;
+    max-width: 100%; 
+    
+}
+
+/* This rule styles the paragraphs that are describing each of your collection items. You can change the color, font-size, or font-family. */
+
+p {
+
+    font-size: 15pt;
+    padding: 10px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+/* CLASSES & IDS */ 
+
+/* Give each <div> a unique id selector in the HTML document. Then, below, create a #id rule for each section. You can then give each a different background color, add text-align:center, add margin, border, etc. But most importantly, give each a width in percentages that equals about 1/3 of a row that is equal to 100%*/
+#ATL{
+    background-color: aqua;
+    flex-basis: 30%;
+    margin: 3%; 
+}
+
+#ACT{
+    background-color: aqua;
+    flex-basis: 30%;
+    margin: 3%; 
+}
+
+#HOTMILK{
+    background-color: aqua;
+    flex-basis: 30%;
+    margin: 3%;
+}
+
+#Loveless{
+    background-color: aqua;
+    flex-basis: 30%;
+    margin: 3%;
+}
+
+#PARAMORE{
+    background-color: aqua;
+    flex-basis: 30%;
+    margin: 3%;
+}
+
+#simpleplan{
+    background-color: aqua;
+    flex-basis: 30%;
+    margin: 3%;
+}
+
+#Statechamps{
+    background-color: aqua;
+    flex-basis: 30%;
+    margin: 3%;
+}
+
+#Charsands{
+    background-color: aqua;
+    flex-basis: 30%;
+    padding: 30;
+}
+
+#Summerset{
+    background-color: aqua;
+    flex-basis: 30%;
+    padding: 30;
+}
